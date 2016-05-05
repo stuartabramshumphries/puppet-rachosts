@@ -1,0 +1,10 @@
+# THIS FILE IS AUTOMATICALLY DISTRIBUTED BY PUPPET.  ANY CHANGES WILL BE OVERWRITTEN.
+#
+127.0.0.1  localhost.localdomain   localhost
+::1        localhost6.localdomain6 localhost6
+<% @racip.each_pair do |a,b| %>
+<% a = a.chomp() -%>
+<% b = b.chomp() -%>
+<% c = b + "." + @domain -%>
+<%= a %> <%= c -%> <%= b -%>
+<% end %>

@@ -1,0 +1,19 @@
+{
+  "name": "stuartabramshumphries-rachosts",
+  "version": "1.0.0",
+  "author": "stuartabramshumphries",
+  "summary": "rachosts Module",
+  "operatingsystem_support": [{
+                  "operatingsystem": "RedHat",
+                  "operatingsystem_release": [ "6","7"]
+   }],
+  "license": "ASL 2.0",
+  "source": "git://github.com/stuartabramshumphries/puppet-rachosts.git",
+  "project_page": "http://github.com/stuartabramshumphries/puppet-rachosts.git",
+  "issues_url": "https://github.com/stuartabramshumphries/puppet-rachosts.git",
+  "description": "This is a module to manage Oracle rachosts - it configures local ip addresses for the rac interfaces ",
+  "tags": ["RAC", "hosts", "Redhat", "Centos",  "Oracle" ],
+  "dependencies": [
+  
+  ]
+}

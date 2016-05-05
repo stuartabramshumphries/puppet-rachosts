@@ -1,0 +1,20 @@
+rachosts
+
+This is the rachosts module.
+Its very specific module to an issue I had with Oracle Rac - including it as I'm sure others will have similar problems.
+Essentially have a fact that looks for rac hosts in DNS - looks for up to 6 of these and then adds to /etc/hosts file
+
+License
+-------
+apache
+
+
+Contact
+-------
+stuartabramshumphries@gmail.com
+
+
+Support
+-------
+
+Please log tickets and issues at https://github.com/stuartabramshumphries/puppet-rachosts
