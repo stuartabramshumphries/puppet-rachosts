@@ -4,20 +4,7 @@
 #
 # === Parameters
 #
-# [autoupdate]
-#   Will set the module to automatically update the packages it installs.
-# [service_ensure]
-#   Set the service the module is responsible for to that state.
-# [package]
-#   The package to install
-# [svc_name]
-#   The name of the service in init.d that we are running
-# [domain]
-#   Active directory domain to join
-# [username]
-#   The user name to use to join the AD domain above
-# [password]
-#   Password for the user above
+#   NA
 #
 # === Variables
 #
@@ -35,8 +22,10 @@
 # stuartabramshumphries@gmail.com
 #
 # [Remember: No empty lines between comments and class definition]
+# as this is important I'm going to restrict usage to outside production hours
+#
 class rachosts (
-  $enable = true,
+  $enable = false,
   $range = '21:00 - 23:00',
   $repeat = 1,
 ) {
